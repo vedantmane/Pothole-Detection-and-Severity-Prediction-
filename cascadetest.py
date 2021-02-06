@@ -3,7 +3,7 @@ import numpy as np
 
 pothole_cascade = cv2.CascadeClassifier('E:/Vedant/Projects/Pothole Detection and Severity Prediction/cascade/cascade.xml')
 
-img = cv2.imread("potholes144.png")
+img = cv2.imread("potholes.png")
 cv2.imshow('img', img)
 cv2.waitKey(0)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
